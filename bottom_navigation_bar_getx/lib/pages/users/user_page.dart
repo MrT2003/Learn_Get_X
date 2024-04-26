@@ -13,15 +13,15 @@ class UsersPage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
+            const Text(
               "Users Page",
               style: TextStyle(fontSize: 20),
             ),
-            Divider(),
+            const Divider(),
             Obx(
               () => Text(
                 '${c.counter.value}',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 30,
                 ),
               ),

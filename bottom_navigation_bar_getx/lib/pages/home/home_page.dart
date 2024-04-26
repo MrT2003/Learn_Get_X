@@ -11,14 +11,14 @@ class HomePage extends GetView<HomePageController> {
       appBar: AppBar(
         title: Text(
           controller.title,
-          style: TextStyle(color: Colors.black),
+          style: const TextStyle(color: Colors.black),
         ),
         centerTitle: true,
         elevation: 15,
         backgroundColor: Colors.white,
       ),
       body: Container(
-        child: Center(
+        child: const Center(
           child: Text(
             'Home Page',
             style: TextStyle(
